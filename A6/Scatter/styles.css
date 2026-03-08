@@ -1,0 +1,16 @@
+/* CSS styles for the chart */
+.axis-x path,
+.axis-y path {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis-x .tick line,
+.axis-y .tick line {
+    stroke: #ccc;
+}
+
+.axis text {
+    font-size: 11px;
+}
