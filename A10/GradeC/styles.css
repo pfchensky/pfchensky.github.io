@@ -1,0 +1,25 @@
+/* CSS styles for the chart */
+.axis-x .tick line,
+.axis-y .tick line {
+    stroke: #ccc;
+}
+
+.axis text {
+    font-size: 11px;
+}
+.chart-row {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.chart-box {
+    width: 620px;
+}
+
+.chart-box h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
